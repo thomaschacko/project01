@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="test2" Class="JourneyDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=r6hz2o4r01.database.windows.net;Initial Catalog=test2;Persist Security Info=True;User ID=azministrator;MultipleActiveResultSets=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ix01ConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.proc_leg_add" Method="AddLeg">
+    <Parameter Name="account_id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="journey_id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="leg_id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="leg_xml" Type="System.Xml.Linq.XElement" DbType="Xml" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.proc_journey_get" Method="GetJourney">
+    <Parameter Name="account_id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="journey_id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="journey_xml" Type="System.Xml.Linq.XElement" DbType="Xml" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.proc_journey_list" Method="GetJourneyList">
+    <Parameter Name="account_id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="journey_xml_list" Type="System.Xml.Linq.XElement" DbType="Xml" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.proc_account_add" Method="AddAccountOld">
+    <Parameter Name="gigya_uid" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="email" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="user_password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="device_id" Type="System.String" DbType="VarChar(250)" />
+    <Parameter Name="country_code" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="account_id" Type="System.Guid" DbType="UniqueIdentifier" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.proc_account_add" Method="AddAccount">
+    <Parameter Name="gigya_uid" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="email" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="user_password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="device_id" Type="System.String" DbType="VarChar(250)" />
+    <Parameter Name="country_code" Type="System.Int32" DbType="Int" />
+    <Parameter Name="gigya_login_provider" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="nick_name" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="name_first" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="name_last" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="city" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="country_name" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="account_id" Type="System.Guid" DbType="UniqueIdentifier" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.proc_account_get" Method="GetAccount">
+    <Parameter Name="gigya_uid" Type="System.String" DbType="VarChar(60)" />
+    <Parameter Name="email" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="user_password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="account_id" Type="System.Guid" DbType="UniqueIdentifier" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

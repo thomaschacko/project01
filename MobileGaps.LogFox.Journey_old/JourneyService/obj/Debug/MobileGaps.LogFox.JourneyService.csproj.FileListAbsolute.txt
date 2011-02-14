@@ -1,0 +1,9 @@
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\bin\JourneyService.dll
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\bin\JourneyService.pdb
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\bin\Microsoft.WindowsAzure.StorageClient.xml
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\obj\Debug\ResolveAssemblyReference.cache
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\obj\Debug\JourneyService.dll
+C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\obj\Debug\JourneyService.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel name="JourneyWebService" version="1.0">
+  <Properties>
+    <Property name="RoleType" value="Web" />
+    <Property name="RoleName" value="JourneyWebService" />
+    <Property name="ProjectName" value="JourneyWebService" />
+    <Property name="Configuration" value="Debug" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="OutputDir" value="C:\sourcecode\JourneyService\JourneyService\obj\Debug\JourneyWebService\" />
+    <Property name="EntryPoint" value="WCFServiceWebRole1.dll" />
+    <Property name="SourceDir" value="C:\sourcecode\JourneyService\WCFServiceWebRole1\" />
+    <Property name="RoleTargetFramework" value="v4.0" />
+    <Property name="OriginalItemSpec" value="C:\sourcecode\JourneyService\JourneyService\JourneyService.ccproj" />
+    <Property name="MSBuildSourceProjectFile" value="C:\sourcecode\JourneyService\JourneyService\JourneyService.ccproj" />
+    <Property name="MSBuildSourceTargetName" value="ResolveSingleWebRoleReference" />
+    <Property name="TargetFrameworkVersion" value="v4.0" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+</RoleModel>

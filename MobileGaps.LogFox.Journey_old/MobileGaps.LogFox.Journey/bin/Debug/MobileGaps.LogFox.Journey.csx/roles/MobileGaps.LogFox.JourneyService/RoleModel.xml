@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel name="MobileGaps.LogFox.JourneyService" version="1.0">
+  <Properties>
+    <Property name="RoleType" value="Web" />
+    <Property name="RoleName" value="MobileGaps.LogFox.JourneyService" />
+    <Property name="ProjectName" value="MobileGaps.LogFox.JourneyService" />
+    <Property name="Configuration" value="Debug" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="OutputDir" value="C:\sourcecode\MobileGaps.LogFox.Journey\MobileGaps.LogFox.Journey\obj\Debug\MobileGaps.LogFox.JourneyService\" />
+    <Property name="EntryPoint" value="JourneyService.dll" />
+    <Property name="SourceDir" value="C:\sourcecode\MobileGaps.LogFox.Journey\JourneyService\" />
+    <Property name="RoleTargetFramework" value="v4.0" />
+    <Property name="OriginalItemSpec" value="C:\sourcecode\MobileGaps.LogFox.Journey\MobileGaps.LogFox.Journey\MobileGaps.LogFox.Journey.ccproj" />
+    <Property name="MSBuildSourceProjectFile" value="C:\sourcecode\MobileGaps.LogFox.Journey\MobileGaps.LogFox.Journey\MobileGaps.LogFox.Journey.ccproj" />
+    <Property name="MSBuildSourceTargetName" value="ResolveSingleWebRoleReference" />
+    <Property name="TargetFrameworkVersion" value="v4.0" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+</RoleModel>

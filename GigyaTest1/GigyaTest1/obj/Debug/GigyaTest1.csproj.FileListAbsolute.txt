@@ -1,0 +1,6 @@
+C:\sourcecode\GigyaTest1\GigyaTest1\bin\GigyaTest1.dll
+C:\sourcecode\GigyaTest1\GigyaTest1\bin\GigyaTest1.pdb
+C:\sourcecode\GigyaTest1\GigyaTest1\bin\GSCSharpSDK.dll
+C:\sourcecode\GigyaTest1\GigyaTest1\obj\Debug\ResolveAssemblyReference.cache
+C:\sourcecode\GigyaTest1\GigyaTest1\obj\Debug\GigyaTest1.dll
+C:\sourcecode\GigyaTest1\GigyaTest1\obj\Debug\GigyaTest1.pdb

@@ -1,0 +1,7 @@
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\bin\Debug\journeyServiceTesting.exe.config
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\bin\Debug\journeyServiceTesting.exe
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\bin\Debug\journeyServiceTesting.pdb
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\bin\Debug\GSCSharpSDK.dll
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\obj\x86\Debug\journeyServiceTesting.exe
+C:\sourcecode\journeyServiceTesting\journeyServiceTesting\obj\x86\Debug\journeyServiceTesting.pdb
